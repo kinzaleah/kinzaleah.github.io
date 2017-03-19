@@ -6,17 +6,26 @@ body {
   color: #4d4d4d;
 }
 
-h1 {
+.kinzaleah {
 
   text-align: center;
   font-size: 10em;
   color: #F5409A;
-  text-shadow: 2px 2px #575757;
+  text-shadow: 2px 2px 150px #02ffc5, 2px 2px #575757;
+}
+
+.heading {
+
+  text-align: center;
+  font-size: 7em;
+  color: #F5409A;
+  text-shadow: 2px 2px 150px #02ffc5, 2px 2px #575757;
 }
 
 h2 {
-  font-size: 1.75em;
+  font-size: 2em;
   font-weight: bold;
+  text-shadow: 2px 2px 300px #02ffc5;
 }
 
 .container {
@@ -24,18 +33,30 @@ h2 {
   flex-flow: row wrap;
   padding-left: 20px;
   padding-right: 20px;
+  text-align:center;
+}
+
+.col {
+  padding-left: 20px;
+  padding-right: 20px;
+  flex: 1;
 }
 
 .js30 {
-  flex-grow: 1;
+
+
 }
 
 .xStitch {
-  flex-grow: 1;
+
 }
 
-.pups {
-  flex-grow: 1;
+.puplings {
+
+}
+
+img:hover {
+  filter: brightness(105%);
 }
 
 
@@ -51,6 +72,7 @@ a {
 
 a:visited {
   color: #4d4d4d;
+  text-shadow: 2px 2px 300px #02ffc5;
 }
 
 li {
