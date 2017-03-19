@@ -9,17 +9,25 @@ body {
 .kinzaleah {
 
   text-align: center;
-  font-size: 10em;
+  font-size: 7em;
   color: #F5409A;
   text-shadow: 2px 2px 150px #02ffc5, 2px 2px #575757;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.avatar {
+  display: block;
+  margin: auto;
 }
 
 .heading {
 
   text-align: center;
-  font-size: 7em;
+  font-size: 6em;
   color: #F5409A;
   text-shadow: 2px 2px 150px #02ffc5, 2px 2px #575757;
+
 }
 
 h2 {
@@ -56,7 +64,7 @@ h2 {
 }
 
 img:hover {
-  filter: brightness(105%);
+  filter: brightness(104%);
 }
 
 
