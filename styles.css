@@ -38,6 +38,18 @@ h2 {
   text-shadow: 2px 2px 300px #02ffc5;
 }
 
+.back {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  color: #F5409A;
+  text-shadow: 2px 2px 150px #02ffc5, 2px 2px #575757;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 50px;
+
+}
+
 .crossStitch {
 
   text-align: center;
@@ -105,10 +117,10 @@ a {
   color: inherit;
 }
 
-a:visited {
+/*a:visited {
   color: #4d4d4d;
   text-shadow: 2px 2px 300px #02ffc5;
-}
+}*/
 
 li {
   list-style: none;
